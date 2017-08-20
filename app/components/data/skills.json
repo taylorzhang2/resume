@@ -1,0 +1,89 @@
+{
+  "skills": [
+    {
+      "skill": "Javascript",
+      "experience": "Proficient",
+      "img": "https://aspblogs.blob.core.windows.net/media/dwahlin/Windows-Live-Writer/57c59b2be72b_127DE/image_8.png",
+      "link": "https://www.javascript.com/"
+    },
+    {
+      "skill": "Python",
+      "experience": "Proficient",
+      "img": "https://pluralsight.imgix.net/paths/python-7be70baaac.png",
+      "link": "https://www.python.org/"
+    },
+    {
+      "skill": "Java",
+      "experience": "Proficient",
+      "img": "http://d3gnp09177mxuh.cloudfront.net/tech-page-images/java.png",
+      "link": "https://go.java/index.html"
+
+    },
+    {
+      "skill": "Node.js",
+      "experience": "Proficient",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png",
+      "link": "https://nodejs.org"
+    },
+    {
+      "skill": "React.js",
+      "experience": "Familiar",
+      "img":"https://facebook.github.io/react/img/logo.svg",
+      "link":"https://facebook.github.io/react/"
+    },
+    {
+      "skill": "AngularJS",
+      "experience": "Familiar",
+      "img": "https://www.w3schools.com/angular/pic_angular.jpg",
+      "link": "https://angularjs.org/"
+    },
+    {
+      "skill": "MongoDB",
+      "experience": "Familiar",
+      "img": "http://www.theodo.fr/uploads/blog//2015/11/mongodb.png",
+      "link": "https://www.mongodb.com/"
+    },
+    {
+      "skill": "Racket",
+      "experience": "Used in the past",
+      "img": "https://racket-lang.org/img/racket-logo.svg",
+      "link": "https://racket-lang.org/"
+    },
+    {
+      "skill": "ML",
+      "experience": "Used in the past",
+      "img": "http://www.smlnj.org/Lindig2.jpeg",
+      "link": "http://www.smlnj.org/"
+    },
+    {
+      "skill": "MapReduce",
+      "experience": "Used in the past",
+      "img": "http://www.codingdevil.com/wp-content/uploads/2015/06/mapreduce-logo.jpg",
+      "link": "https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html"
+    },
+    {
+      "skill": "C++",
+      "experience": "Used in the past",
+      "img": "https://isocpp.org/files/img/cpp_logo.png",
+      "link": "https://isocpp.org/"
+    },
+    {
+      "skill": "SQL",
+      "experience": "Used in the past",
+      "img": "https://azure.microsoft.com/svghandler/sql-database/?width=600&height=315",
+      "link": "https://www.mysql.com/"
+    },
+    {
+      "skill": "MQTT",
+      "experience": "Familiar",
+      "img": "https://hackadaycom.files.wordpress.com/2016/05/mqtt_dash.png",
+      "link": "http://mqtt.org/"
+    },
+    {
+      "skill": "ASP.net",
+      "experience": "Used in the past",
+      "img": "http://wp.learnnowonline.com/wp-content/uploads/2013/08/aspnet-tutorial1.png",
+      "link": "https://www.asp.net/"
+    }
+  ]
+}

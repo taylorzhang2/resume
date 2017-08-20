@@ -1,0 +1,166 @@
+/* app css stylesheet */
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.nav-arrow {
+  padding-right: 30px;
+  padding-top: 250px;
+  position: fixed;
+  z-index: 1;
+  right: 0px;
+  position: fixed;
+}
+
+.nav-arrow button {
+  color: #6D7993;
+  background-color: black;
+  border-color: black;
+}
+
+
+.banner {
+  height: 100vh;
+  background: url('components/assets/jumbotron.jpg') center center no-repeat scroll;
+  background-size:cover;
+  width:100%;
+  color: #fff;
+  filter:brightness(75%);
+  position: absolute;
+  z-index: 0
+}
+
+#banner-text {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 40px;
+}
+
+#banner-nav {
+  color:white;
+  font-family: 'Inconsolata';
+
+}
+
+#banner-nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.block {
+  width: 100%;
+  background-color: #96858F;
+  height: auto;
+}
+
+#block-header {
+  color: white;
+  font-family: 'Inconsolata';
+}
+
+#block-text {
+  color: white;
+  font-family: 'Noto Sans';
+}
+
+.resume-block {
+  width: 100%;
+  height: auto;
+  background-color: #6D7993;
+}
+
+.resume-category {
+  height: 100%;
+  font-family: 'Montserrat';
+  color: white;
+}
+.resume-category h2 {
+  margin-top: 5px;
+}
+
+.resume-description {
+  height: 100%;
+  font-family: 'Noto Sans';
+  color: white;
+  border-left: 1px solid;
+  border-left-color: white;
+}
+
+.resume-description h4 {
+  margin-top: 12px;
+  padding-bottom: 5px;
+}
+
+.education-block {
+  width: 100%;
+  height: auto;
+  background-color: #D5D5D5;
+}
+
+#education-text {
+  color: #6D7993;
+}
+
+#education-text:active {
+  color: white;
+}
+
+#education-hr {
+  border-color: #6D7993;
+}
+
+#education-header {
+  color: #6D7993;
+  font-family: 'Inconsolata';
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 78vh;
+}
+
+.flex {
+  flex: 1;
+}
+
+.education-block-border {
+  border-left: 1px solid;
+  border-left-color: #6D7993;
+}
+
+.skills-block {
+  width: 100%;
+  height: auto;
+  background-color: #F8EEE7;
+
+}
+.pointer {
+  cursor: pointer;
+}
+.skills-detail {
+  max-width: 275px;
+  max-height: 275px;
+  align-content: center;
+}
+
+.contact-block {
+  width: 100%;
+  height: 375px;
+  background-color: #233237;
+  overflow: hidden;
+}
+
+#contact-text {
+  color: #D7CEC7;
+  font-family: 'Noto Sans';
+
+}
+
+#contact-header {
+  color: #D7CEC7;
+  font-family: 'Inconsolata';
+}

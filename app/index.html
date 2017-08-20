@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Taylor Zhang</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type ='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type ='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" type = 'text/css'>
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body ng-app = 'myApp'>
+  <!--
+  <ul class="menu">
+    <li><a href="#!/view1">view1</a></li>
+    <li><a href="#!/view2">view2</a></li>
+  </ul>
+-->
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+    <div ng-controller = "ScrollCtrl">
+      <nav class = "nav-arrow">
+        <div class = "container-fluid">
+          <ul class = "navbar-right">
+              <up>
+                <button ng-click = "scrollUp()" class ="btn btn-default">
+                  <i class = "glyphicon glyphicon-menu-up"></i>
+                </button>
+              </up>
+            <br>
+            <br>
+              <down>
+                <button class ="btn btn-default">
+                  <i class = "glyphicon glyphicon-menu-down"></i>
+                </button>
+              </down>
+
+          </ul>
+        </div>
+      </nav>
+      <header id = "#header"></header>
+      <block id = "#developer"></block>
+      <resume-block id = "#resume"></resume-block>
+      <education-block id = "#education"></education-block>
+      <skills-block id = "#skills"></skills-block>
+      <contact-block id = "#contact"></contact-block>
+    </div>
+
+  <div ng-view>
+  </div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-scroll/angular-scroll.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+  <script src="components/header/header.module.js"></script>
+  <script src="components/header/header.component.js"></script>
+  <script src="components/block/block.module.js"></script>
+  <script src="components/block/block.component.js"></script>
+  <script src="core/core.module.js"></script>
+  <script src="core/skills/skills.module.js"></script>
+  <script src="core/skills/skills.service.js"></script>
+
+  <script src="components/resume-block/resume-block.module.js"></script>
+  <script src="components/resume-block/resume-block.component.js"></script>
+  <script src="components/education-block/education-block.module.js"></script>
+  <script src="components/education-block/education-block.component.js"></script>
+  <script src="components/skills-block/skills-block.module.js"></script>
+  <script src="components/skills-block/skills-block.component.js"></script>
+  <script src="components/skills-block/skill-list.js"></script>
+  <script src="components/contact-block/contact-block.module.js"></script>
+  <script src="components/contact-block/contact-block.component.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+
+</body>
+</html>

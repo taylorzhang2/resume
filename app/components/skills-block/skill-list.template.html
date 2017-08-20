@@ -1,0 +1,34 @@
+
+<div class = "row">
+  <div class = "col-md-3">
+  </div>
+  <div class = "col-md-3" style = "height: auto;">
+    <div class = "row">
+      <div class = "col-xs-6">
+        <div class = "list-group pull-right" style = "width: 75%;">
+          <div ng-repeat= "skill in $ctrl.left">
+
+            <div ng-click ="$ctrl.updateCurrent(skill)" ng-class = "{active : $ctrl.current === skill}"
+            class = "list-group-item pointer" id = "education-text">{{skill.skill}}</div>
+
+          </div>
+        </div>
+      </div>
+      <div class = "col-xs-6">
+        <div class = "list-group pull-left" style = "width: 75%;">
+          <div ng-repeat= "skill in $ctrl.right">
+
+            <div ng-click ="$ctrl.updateCurrent(skill)" ng-class = "{active : $ctrl.current === skill}"
+            class = "list-group-item pointer" id = "education-text">{{skill.skill}}</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class = "col-md-3">
+    <img class = "skills-detail" ng-src = "{{$ctrl.current.img}}"></img>
+    <br>
+    <br>
+  </div>
+</div>
